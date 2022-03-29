@@ -1,0 +1,113 @@
+.divHor{
+    background:rgb(26, 145, 243);
+    background-image: url('/slike/prkrmk.png');
+    background-size: 100px;
+    position: absolute;
+    top:0px;
+    right:0px;
+    bottom:0px;
+    left:0px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    
+}
+
+.divVer{
+    display: flex;
+    margin: 5%;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    flex-direction: row;
+    
+}
+.dugmeMeni{
+    display: flex;
+    align-items:flex-end;
+    align-content: flex-end;
+}
+.div1{
+    margin: 1%;
+    width: 30%;
+}
+.div2{
+    width: 30%;
+    margin: 1%;
+}
+.div3{
+    width: 30%;
+    margin: 1%;
+}
+
+.divTekst{
+    padding: 10px;
+    position: relative;
+    width: 90%;
+    height: 300px;
+    margin: 0%;
+    background-color: rgb(170, 240, 138);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.divDugme{
+    margin: 2%;
+
+}
+.dMeni{
+    margin: 2%;
+}
+.dugmeMeni{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    background-color: rgb(255, 136, 0);
+    height: 100%;
+    width: 100%;
+   
+}
+.dugme{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    background-color: rgb(255, 136, 0);
+    height: 100%;
+    width: 100%;
+   
+}
+
+.dugme2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    background-color: rgb(255, 136, 0);
+    height: 100%;
+    width: 100%;
+   
+}
+
+
+
+.kamen{
+   max-height: 300px;
+}
+.papir{
+    max-height: 300px;
+}
+.makaze{
+    max-height: 300px;
+}
+.dugmeKamen{
+    
+    background-color: rgba(255, 240, 24, 0.959);
+}
+.dugmePapir{
+    background-color: rgb(181, 125, 233);
+}
+.dugmeMakaze{
+    background-color: rgb(61, 179, 209);
+}
+
+img{
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+}

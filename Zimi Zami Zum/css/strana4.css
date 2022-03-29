@@ -1,0 +1,103 @@
+.mainDiv{
+    background:rgb(26, 145, 243);
+    background-image: url('/slike/prkrmk.png');
+    background-size: 100px;
+    position: absolute;
+    top:0px;
+    right:0px;
+    bottom:0px;
+    left:0px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    
+}
+
+.redDiv{
+    display: flex;
+    margin: 5%;
+    align-items: center;
+    align-content: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    height: 50%;
+
+    
+}
+
+
+.div1{
+    height: 100%;
+    width: 100%;
+    margin: 10px;
+    border: 3px solid #333;
+    background-color: rgb(255, 127, 127);
+}
+.div2{
+    height: 100%;
+    width: 100%;
+    margin: 10px;
+    border: 3px solid #333;
+    background-color: yellow;
+}
+
+
+.divDugme{
+    height: 100%;
+    width: 100%;
+    margin: 2%;
+    border: 3px solid #333;
+    background-color: yellow;
+
+}
+.dMeni{
+    margin: 2%;
+}
+.dugmeMeni{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    background-color: rgb(255, 136, 0);
+    height: 100%;
+    width: 100%;
+   
+}
+.dugme{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    background-color: rgb(255, 0, 0);
+    height: 100%;
+    width: 100%;
+   
+}
+
+
+.kamen1{
+    max-height: 100%;
+    max-width: 100%;
+}
+.kamen2{
+    max-height: 100%;
+    max-width: 100%;
+}
+.papir1{
+    max-height: 100%;
+    max-width: 100%;
+}
+.papir2{
+    max-height: 100%;
+    max-width: 100%;
+}
+.makaze1{
+    max-height: 100%;
+    max-width: 100%;
+}
+.makaze2{
+    max-height: 100%;
+    max-width: 100%;
+}
+img{
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+}

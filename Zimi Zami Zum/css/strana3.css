@@ -1,0 +1,136 @@
+.mainDiv{
+    background:rgb(26, 145, 243);
+    background-image: url('/slike/prkrmk.png');
+    background-size: 100px;
+    position: absolute;
+    top:0px;
+    right:0px;
+    bottom:0px;
+    left:0px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    
+}
+
+.prviRed{
+    display: flex;
+    
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    flex-direction: row;
+    
+}
+.drugiRed{
+    display: flex;
+    
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    flex-direction: row;
+    
+}
+
+.div1{
+    max-width: 300px;
+    max-height: 500px;
+    margin: 10px;
+    
+}
+.div2{
+    max-width: 300px;
+    max-height: 500px;
+    margin: 10px;
+    
+}
+.div3{
+    max-width: 300px;
+    max-height: 500px;
+    margin: 10px;
+
+}
+.div4{
+    max-width: 300px;
+    max-height: 500px;
+    margin: 10px;
+
+}
+.div5{
+    max-width: 300px;
+    max-height: 500px;
+    margin: 10px;
+
+}
+.div6{
+    max-width: 300px;
+    max-height: 500px;
+    margin: 10px;
+
+}
+
+.divDugme{
+    max-width: 10px;
+    max-height: 10px;
+    margin: 10px;
+
+}
+.dMeni{
+    margin: 2%;
+}
+.dugmeMeni{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    background-color: rgb(255, 136, 0);
+    height: 100%;
+    width: 100%;
+   
+}
+.dugme2{
+    background-color: blacks;
+    align-self:stretch;
+}
+
+.papir{
+    max-height: 300px;
+}
+.kamen{
+    max-height: 300px;
+}
+.makaze{
+    max-height: 300px;
+}
+.pogodak1{
+    max-height: 200px;
+}
+.promasaj1{
+    max-height: 200px;
+}
+.pogodak2{
+    max-height: 200px;
+}
+.promasaj2{
+    max-height: 200px;
+}
+.pogodak3{
+    max-height: 200px;
+}
+.promasaj3{
+    max-height: 200px;
+}
+.dugmeKamen{
+    background-color: rgba(255, 240, 24, 0.959);
+}
+.dugmePapir{
+    background-color: rgb(181, 125, 233);
+}
+.dugmeMakaze{
+    background-color: rgb(61, 179, 209);
+}
+
+img{
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/strana2.css"/>
+    <script src="js/strana2.js" defer></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <title>Strana2</title>
+</head>
+<body>
+    
+    <div class="divHor" >
+        
+        <div class="divVer">
+
+            <div class="div1">
+                <button class="dugmeKamen"> 
+                    <img src="slike/kamen.png" alt="kamen" class="kamen"> 
+                </button> 
+            </div>
+            <div class="div2">
+                <button class="dugmePapir"> 
+                    <img src="slike/papir.png" alt="papir" class="papir">
+                </button>
+            </div>
+            <div class="div3">
+                <button class="dugmeMakaze">
+                    <img src="slike/makaze.png" alt="makaze" class="makaze">
+                </button>
+            </div>
+
+        </div>
+        <div class="divTekst"> 
+            
+            <form id="forma1">
+                <label for="korisnik">Korisnicko ime:</label>
+                <input type="text" id="korisnik" size="30">
+                <br>
+                <label for="korisnik">Lozinka:</label>
+                <input type="password" id="korisnik" size="30">
+            </form>
+            <br>
+            <label for="forma2"> -Smer: </label>
+            <form  id="forma2">
+                <input type="radio" name="radiokamen" value="Isit">Isit <br>
+                <input type="radio" name="radiokamen" value="Menadzment">Menadzment <br>
+                
+            </form>
+            <br>
+            <label for="PadajuciKamen"> -Izaberite omiljenu sliku od ove 3 ponudjene: </label>
+            <br>
+            <select name="PadajucaKamen" id="PadajucaKamen" style="font-size: 20px;">
+                <option value="Kamen" > Kamen</option>
+                <option value="Papir">Papir</option>
+                <option value="Makaze">Makaze</option>
+            </select>
+  
+        </div>
+        <div class="divDugme">
+            <a href="/strana3.html">
+                <button class="dugme" id="dugme"><b>Dalje</b></button>
+            </a>
+            <button class="dugme2"><b>Potvrdi</b></button>
+        </div>
+
+        <div class="dMeni">
+            <a href="/ZimiZamiZum.html">
+                <button class="dugmeMeni" id="dugme2"><b> Meni</b></button>
+            </a>
+        </div>
+
+    </div>
+
+
+
+</body>
+</html>
